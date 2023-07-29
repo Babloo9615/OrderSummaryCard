@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:hsl(225, 100%, 94%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 300px;
+    height: 470px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.image{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.head{
+    margin: 10px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.pra{
+    text-align: center;
+    margin: 15px;
+    font-size: 13px;
+    color: rgb(139, 141, 142);
+    /* font-weight: 300; */
+}
+
+.midbox{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    /* height: 40px; */
+    /* width: 280px; */
+    background-color: rgb(230, 244, 246);
+}
+
+.logo{
+    width: 0px;
+    height: 0px;
+}
+
+.music{
+    height: 30px;
+}
+
+.plan{
+    margin-right: 30px;
+}
+
+.pra2{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.annual{
+    font-size: 12px;
+
+}
+
+.anc a{
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.button{
+    margin: 30px;
+
+
+}
+
+.btn{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 500;
+    box-shadow: 1px 5px 15px rgb(114, 114, 234);
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(114, 114, 234);
+    transition: 0.5s;
+}
+
+.btn2{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+
+.btn2:hover{
+    cursor: pointer;
+    background-color: #e0d7d7;
+    transition: 0.5s;
+}
+
+button{
+   padding: 9px;
+
+}
+
+
+
